@@ -7,20 +7,22 @@ class About extends React.Component {
                 <p className="display-4 mt-5">
                     Welcome
                 </p>
-                <p className='font-weight-bold'>━━━━━━━━</p>
+                <p>━━━━━━━━</p>
                 <p className="font-weight-light  mt-4">
                     Make a reservation today!
                 </p>
                 <form className="mt-4">
                     <label className="font-weight-light">
-                        Phone:
+                        Phone: &nbsp;
                         <input type="text" />
                     </label>
                     <input type="submit" value="Submit" placeholder="email" />
                 </form>
-                <p className="font-weight-light mt-5">
+                <p className="font-weight-light mt-4">
                     or call 859 • 123 • 4567
                 </p>
+                <p>━━━━━━━━</p>
+                
             </div>
         )
     }

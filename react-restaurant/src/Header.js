@@ -9,10 +9,8 @@ class Header extends React.Component {
         return (
             <div className="container-fluid p-0">
                 <div className="col-12 p-0">
-                    <>
-                        <Nav />
-                        <img className="img-fluid" src='DiningRoom.jpg' alt="banner" />
-                    </>
+                    <Nav />
+                    <img className="img-fluid" src='DiningRoom.jpg' alt="banner" />
                 </div>
             </div>
 
