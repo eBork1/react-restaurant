@@ -1,5 +1,4 @@
 import React from 'react';
-import Text from './Text';
 import Food from './Food';
 
 class Accordion extends React.Component {
