@@ -23,8 +23,9 @@ class Food extends React.Component {
                 <div className='card-body'>
                     {this.state.content.map(item =>
                         <>
-                            <p className="font-weight-bold">{item.description.split(' ', 2).join(' ')}</p>
+                            <p className='font-weight-bold'>{item.description.split(' ', 2).join(' ')}</p>
                             <p className='card-text'>{item.description}</p>
+                            <p className='font-weight-light'>${item.description.length}</p>
                         </>
                     )}
                 </div>
