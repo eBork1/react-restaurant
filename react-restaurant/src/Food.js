@@ -25,7 +25,7 @@ class Food extends React.Component {
                         <>
                             <p className='font-weight-bold'>{item.description.split(' ', 2).join(' ')}</p>
                             <p className='card-text'>{item.description}</p>
-                            <p className='font-weight-light'>${item.description.length}</p>
+                            <p className='font-weight-light font-italic'>{item.description.length}</p>
                         </>
                     )}
                 </div>
