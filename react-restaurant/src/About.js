@@ -9,7 +9,7 @@ class About extends React.Component {
                 </p>
                 <p>━━━━━━━━</p>
                 <p className="font-weight-light  mt-4">
-                    Make a reservation today!
+                    Make a reservation today
                 </p>
                 <form className="mt-4">
                     <label className="font-weight-light">

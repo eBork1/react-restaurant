@@ -12,8 +12,6 @@ class Header extends React.Component {
                     <img className="img-fluid" src='DiningRoom.jpg' alt="banner" />
                 </div>
             </div>
-
-
         )
     }
 }
