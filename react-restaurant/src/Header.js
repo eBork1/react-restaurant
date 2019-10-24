@@ -14,7 +14,9 @@ class Header extends React.Component {
                             <div className="jumbotron bg-dark">
                                 <p className="p-5 text-light display-3">Bootstrap Bistro</p> 
                             </div>
-                            <p className="display-2 text-light mt-5">↓</p>
+                            <a href="#nav">
+                            <p className="display-3 text-light mt-5">↓</p>
+                            </a>
                         </div>
                     </div>
                 </div>

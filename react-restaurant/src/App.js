@@ -12,7 +12,9 @@ function App() {
       <a id="home">
       <Header />
       </a>
+      <a id="nav">
       <Nav />
+      </a>
       <a id="about">
       <About />
       </a>
