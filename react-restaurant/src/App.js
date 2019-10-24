@@ -9,11 +9,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <a id="home">
       <Header />
+      </a>
       <Nav />
+      <a id="about">
       <About />
+      </a>
+      <a id='menu'>
       <Accordion />
+      </a>
+      <a id="footer">
       <Footer />
+      </a>
     </div>
   );
 }
