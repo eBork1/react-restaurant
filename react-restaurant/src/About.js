@@ -3,13 +3,12 @@ import React from 'react';
 class About extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="container border-top border-bottom mt-4 mb-4">
                 <div className="row">
                     <div className="col-12">
-                        <p className="display-4 mt-5">
+                        <p className="display-4 mt-4">
                             Welcome
-                        </p>
-                        <p>━━━━━━━━</p>
+                        </p>        
                         <p className="font-weight-light  mt-4">
                             Make a reservation today
                         </p>
@@ -20,11 +19,9 @@ class About extends React.Component {
                             </label>
                             <input type="submit" value="Submit" placeholder="email" />
                         </form>
-                        <p className="font-weight-light mt-4">
+                        <p className="font-weight-light mt-4 mb-4">
                             or call 859 • 123 • 4567
                         </p>
-                        <p>━━━━━━━━</p>
-
                     </div>
                 </div>
             </div>
