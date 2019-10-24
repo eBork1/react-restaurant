@@ -1,6 +1,13 @@
 .header1{
-    background-image: url(./DiningRoom.jpg);
+    background-image: url(./bistro.jpeg);
     height: 800px;
-    background-size: cover;
-    
+    background-size: cover;   
+}
+
+.jumbotron{
+    margin-top: 150px;
+}
+
+.bg-dark{
+    opacity: .7;
 }
