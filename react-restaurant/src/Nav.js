@@ -12,7 +12,7 @@ class Nav extends React.Component {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link" href="#about">About</a>
+                        <a className="nav-item nav-link" href="#nav">About</a>
                         <a className="nav-item nav-link" href="#menu">Menu</a>
                         <a className="nav-item nav-link" href="#footer">Contact</a>
                     </div>
