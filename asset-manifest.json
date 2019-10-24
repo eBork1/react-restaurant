@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/eBork1/react-restaurant/static/css/main.1067d6a4.chunk.css",
+    "main.js": "/eBork1/react-restaurant/static/js/main.bc7b22f8.chunk.js",
+    "main.js.map": "/eBork1/react-restaurant/static/js/main.bc7b22f8.chunk.js.map",
+    "runtime-main.js": "/eBork1/react-restaurant/static/js/runtime-main.7fccec27.js",
+    "runtime-main.js.map": "/eBork1/react-restaurant/static/js/runtime-main.7fccec27.js.map",
+    "static/css/2.510409cd.chunk.css": "/eBork1/react-restaurant/static/css/2.510409cd.chunk.css",
+    "static/js/2.f66995cd.chunk.js": "/eBork1/react-restaurant/static/js/2.f66995cd.chunk.js",
+    "static/js/2.f66995cd.chunk.js.map": "/eBork1/react-restaurant/static/js/2.f66995cd.chunk.js.map",
+    "index.html": "/eBork1/react-restaurant/index.html",
+    "precache-manifest.66c8a8f2aecbdac8c059e50a0b913666.js": "/eBork1/react-restaurant/precache-manifest.66c8a8f2aecbdac8c059e50a0b913666.js",
+    "service-worker.js": "/eBork1/react-restaurant/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/eBork1/react-restaurant/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.1067d6a4.chunk.css.map": "/eBork1/react-restaurant/static/css/main.1067d6a4.chunk.css.map",
+    "static/media/Header.css": "/eBork1/react-restaurant/static/media/DiningRoom.7b9b6d34.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fccec27.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.f66995cd.chunk.js",
+    "static/css/main.1067d6a4.chunk.css",
+    "static/js/main.bc7b22f8.chunk.js"
+  ]
+}
