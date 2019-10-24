@@ -10,6 +10,20 @@ class Accordion extends React.Component {
                         <p className='display-4'>Menu</p>
                         <div class="accordion" id="accordionExample">
                             <div className="card">
+                                <div className="card-header" id="headingZero">
+                                    <h2 className="mb-0">
+                                        <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseThree">
+                                            Small plates
+                                            </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseZero" className="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div className="card-body">
+                                        <Food menuSection="Small-Plates" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card">
                                 <div className="card-header" id="headingOne">
                                     <h2 className="mb-0">
                                         <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -17,8 +31,7 @@ class Accordion extends React.Component {
                                         </button>
                                     </h2>
                                 </div>
-
-                                <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div className="card-body">
                                         <Food menuSection="Brunch" />
                                     </div>
@@ -48,6 +61,20 @@ class Accordion extends React.Component {
                                     <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                         <div className="card-body">
                                             <Food menuSection="Dinner" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="card">
+                                    <div className="card-header" id="headingFour">
+                                        <h2 className="mb-0">
+                                            <button className="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Dessert
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                        <div className="card-body">
+                                            <Food menuSection="Dessert" />
                                         </div>
                                     </div>
                                 </div>
