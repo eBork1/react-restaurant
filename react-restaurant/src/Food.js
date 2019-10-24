@@ -10,13 +10,15 @@ class Food extends React.Component {
         if (localStorage.getItem(this.props.menuSection) === null) {
             axios.get(`https://entree-f18.herokuapp.com/v1/menu/12`)
                 .then(response => {
-                    this.setState({ content: response.data.menu_items });
-                    
-                    // SetItem(key(each menu section), value)
+                    this.setState({ 
+                    content: response.data.menu_items
+                    });
                     window.localStorage.setItem(this.props.menuSection, JSON.stringify(this.state.content));
                 })
-        }else{
-            this.setState({ content: JSON.parse(localStorage.getItem(this.props.menuSection))})
+        } else {
+            this.setState({
+            content: JSON.parse(localStorage.getItem(this.props.menuSection))
+            });
         }
     }
 
