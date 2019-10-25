@@ -2,3 +2,8 @@
     opacity: .65;
 }
 
+.navbar:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
